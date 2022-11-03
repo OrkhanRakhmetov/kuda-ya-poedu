@@ -1,0 +1,8 @@
+.places__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 60px;
+    margin: 0;
+  }
