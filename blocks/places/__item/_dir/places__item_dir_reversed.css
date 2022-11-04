@@ -1,0 +1,6 @@
+@media screen and (max-width: 568px) {
+  .places__item_dir_reversed {
+    flex-direction: column-reverse;
+  }
+}
+

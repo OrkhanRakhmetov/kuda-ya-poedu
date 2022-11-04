@@ -1,7 +1,10 @@
+
+
 .header {
-  font-size: 14px;
-  font-weight: 700;
-  padding: 0 48px;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 600;
+  padding: 0 68px;
   width: 100%;
   box-sizing: border-box;
 }

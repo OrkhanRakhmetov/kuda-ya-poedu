@@ -1,3 +1,6 @@
 .places__title {
   margin: 0;
+  font-size: 32px;
+  letter-spacing: .8px;
+  margin-bottom: 20px;
 }

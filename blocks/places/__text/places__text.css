@@ -2,4 +2,14 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  color: #5e5e5e;
+  font-size: 12.5px;
+  line-height: 1.7;
+  letter-spacing: .8px;
+}
+
+@media screen and (max-width: 984px) {
+  .places__text {
+    font-size: 10px;
+  }
 }

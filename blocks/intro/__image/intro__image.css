@@ -1,5 +1,7 @@
 .intro__image {
-  width: 340px;
-  height: 340px;
+  width: 355px;
+  height: 355px;
   margin: 0 auto;
+  object-fit: cover;
+  object-position: center;
 }

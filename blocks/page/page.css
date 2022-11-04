@@ -1,8 +1,7 @@
 .page {
   background-color: #fff;
   color: #010101;
-  font-family: 'Inter', Arial, sans-serif;
-  font-style: normal;
+  font-family: Arial, sans-serif;
   font-weight: 400;
   max-width: 1280px;
   min-width: 320px;
@@ -13,5 +12,5 @@
   padding-top: 50px;
   margin: 0 auto;
   box-sizing: border-box;
-  
+
 }
