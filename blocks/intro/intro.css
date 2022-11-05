@@ -1,6 +1,36 @@
 .intro {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-items: center;
+  box-sizing: border-box;
+  padding: 85px 20px 130px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 68px 16px 104px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    padding: 51px 12px 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 28px 0 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .intro {
+    grid-template-rows: minmax(fit-content, 1fr) 2fr;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+}
+

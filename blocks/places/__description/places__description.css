@@ -8,15 +8,6 @@
     padding: 68px 0 85px 75px;
   }
 
-  /* @media screen and (max-width: 1190px) {
-    .places__description {
-      padding: 52px 0 68px 60px;
-      padding: 39px 0 51px 45px;
-      padding: 26px 0 34px 30px;
-      max-width: 83%;
-    }
-  } */
-
   @media screen and (max-width: 1124px) {
     .places__description {
       padding: 52px 0 68px 60px;

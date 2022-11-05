@@ -1,7 +1,22 @@
 .intro__image {
   width: 355px;
-  height: 355px;
-  margin: 0 auto;
+  max-width: 90%;
+  aspect-ratio: 1/1;
+  margin: 0;
   object-fit: cover;
   object-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__image {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .intro__image {
+    aspect-ratio: 6/5;
+    object-position: 0 5%;
+  }
 }

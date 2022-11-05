@@ -1,9 +1,14 @@
 .section__title {
   color: #fecda7;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.2;
-  padding: 0 0 30px;
-  margin: 0;
   text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .section__title {
+    margin-bottom: 20px;
+  }
 }

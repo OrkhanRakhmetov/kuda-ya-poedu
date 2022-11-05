@@ -4,19 +4,19 @@
   font-size: 13px;
   line-height: 1;
   font-weight: 600;
-  padding: 0 68px;
+  padding: 50px 68px 0;
   width: 100%;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 984px) {
   .header {
-      padding: 0 24px;
+      padding: 50px 40px 0;
   }
 }
 
 @media screen and (max-width: 568px) {
   .header {
-    padding: 0 16px;
+    padding: 28px 16px 0;
   }
 }

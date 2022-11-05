@@ -1,16 +1,20 @@
 .page {
-  background-color: #fff;
-  color: #010101;
-  font-family: Arial, sans-serif;
-  font-weight: 400;
   max-width: 1280px;
   min-width: 320px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
   margin: 0 auto;
   box-sizing: border-box;
-
+  background-color: #fff;
+  color: #010101;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
