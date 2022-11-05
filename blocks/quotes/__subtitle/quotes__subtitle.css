@@ -1,0 +1,12 @@
+.quotes__subtitle {
+  max-width: 420px;
+  box-sizing: border-box;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 568px) {
+  .quotes__subtitle {
+    max-width: 380px;
+    margin-bottom: 60px;
+  }
+}

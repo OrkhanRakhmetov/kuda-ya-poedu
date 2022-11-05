@@ -1,0 +1,9 @@
+.narrow__title {
+  letter-spacing: .3px;
+  font-family: 'Roboto-Condensed', 'Inter', Arial, sans-serif;
+  color: #fecda7;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}

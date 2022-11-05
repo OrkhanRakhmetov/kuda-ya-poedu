@@ -1,7 +1,6 @@
 .intro {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
   box-sizing: border-box;
@@ -28,7 +27,6 @@
 
 @media screen and (max-width: 568px) {
   .intro {
-    grid-template-rows: minmax(fit-content, 1fr) 2fr;
     grid-template-columns: 1fr;
     padding: 0;
   }

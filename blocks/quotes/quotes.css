@@ -1,0 +1,16 @@
+.quotes {
+  box-sizing: border-box;
+  padding: 137px 70px 120px;
+}
+
+@media screen and (max-width: 1190px) {
+  .quotes {
+    padding: 69px 70px 60px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .quotes {
+    padding: 49px 37px;
+  }
+}
