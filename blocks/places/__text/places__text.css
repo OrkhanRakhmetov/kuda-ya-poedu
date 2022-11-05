@@ -8,8 +8,8 @@
   letter-spacing: .8px;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 900px) {
   .places__text {
-    font-size: 10px;
+    font-size: 11px;
   }
 }

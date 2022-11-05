@@ -1,5 +1,6 @@
 .places__card {
   max-width: 50%;
+  height: 100%;
 }
 
 @media screen and (max-width: 568px) {
