@@ -8,7 +8,7 @@
 - html разметка
 - CSS
 - адаптивная верстка (Grid Layout, Flexbox, media queries)
-- java Script (библиотека Jquery)
+- Java Script (библиотека Jquery)
 
 ### GitHub Pages
 https://orkhanrakhmetov.github.io/kuda-ya-poedu
