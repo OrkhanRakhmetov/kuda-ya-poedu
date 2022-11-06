@@ -15,7 +15,9 @@
 @import url(../blocks/burger-menu/__active/burger-menu__active.css);
 @import url(../blocks/burger-menu/__button/burger-menu__button.css);
 @import url(../blocks/burger-menu/__lines/burger-menu__lines.css);
+@import url(../blocks/burger-menu/__lines/_active/burger-menu__lines_active.css);
 @import url(../blocks/burger-menu/__nav/burger-menu__nav.css);
+@import url(../blocks/burger-menu/__nav/_active/burger-menu__nav_active.css);
 @import url(../blocks/burger-menu/__link/burger-menu__link.css);
 
 @import url(../blocks/intro/__text/intro__text.css);
@@ -43,4 +45,3 @@
 @import url(../blocks/table/__text/table__text.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright-author/footer__copyright-author.css);

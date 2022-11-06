@@ -1,19 +1,14 @@
-.burger-menu__active .burger-menu__lines {
+.burger-menu__active {
     background-color: transparent;
+    right: 0;
 }
 
-
-.burger-menu__active .burger-menu__lines::before {
+.burger-menu__active::before {
     top: 0;
     transform: rotate(45deg);
 }
 
-
-.burger-menu__active .burger-menu__lines::after {
+.burger-menu__active::after {
     top: 0;
     transform: rotate(-45deg);
-}
-
-.burger-menu__active .burger-menu__nav {
-    right: 0;
 }

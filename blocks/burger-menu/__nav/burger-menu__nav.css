@@ -1,7 +1,6 @@
 .burger-menu__nav {
     position: fixed;
     top: 0;
-    right: 0;
     padding-top: 80px;
     position: fixed;
     z-index: 20;

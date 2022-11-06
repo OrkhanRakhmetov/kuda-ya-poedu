@@ -1,8 +1,0 @@
-.footer__copyright-author {
-    scale: 1;
-    transition: scale .5s ease;
-}
-
-.footer__copyright-author:hover {
-    scale: 1.1;
-}
