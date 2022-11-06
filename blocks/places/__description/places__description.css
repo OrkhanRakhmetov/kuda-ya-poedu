@@ -18,7 +18,6 @@
   @media screen and (max-width: 900px) {
     .places__description {
       padding: 39px 0 51px 45px;
-      max-width: 83%;
     }
   }
 

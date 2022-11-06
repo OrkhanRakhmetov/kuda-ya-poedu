@@ -1,32 +1,52 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="wrap">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="./images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00a300">
+  <meta name="theme-color" content="#ffffff">
   <title>Куда я поеду</title>
 </head>
+
 <body class="page">
   <header class="header">
     <nav class="header__menu">
       <ul class="header__list">
-        <li class="header__list-item"><a href="#" class="link">Мечты</a></li>
-        <li class="header__list-item"><a href="#" class="link">Ожидания</a></li>
-        <li class="header__list-item"><a href="#" class="link">Реальность</a></li>
+        <li class="header__list-item"><a href="#section-intro" class="link">Мечты</a></li>
+        <li class="header__list-item"><a href="#section-places" class="link">Ожидания</a></li>
+        <li class="header__list-item"><a href="#section-quotes" class="link">Реальность</a></li>
       </ul>
-        <a href="#" class="link">Пожаловаться</a>
+      <a href="#section-footer" class="link">Пожаловаться</a>
     </nav>
+    <div class="burger-menu">
+      <a href="#" class="burger-menu__button">
+        <span class="burger-menu__lines"></span>
+      </a>
+      <nav class="burger-menu__nav">
+        <a href="#section-intro" class="burger-menu__link">Мечты</a>
+        <a href="#section-places" class="burger-menu__link">Ожидания</a>
+        <a href="#section-quotes" class="burger-menu__link">Реальность</a>
+        <a href="#section-footer" class="burger-menu__link">Пожаловаться</a>
+      </nav>
+    </div>
   </header>
   <main>
-    <section class="intro">
+    <section class="intro" id="section-intro">
       <div class="intro__text">
         <h1 class="narrow__title section__title">куда я поеду</h1>
         <p class="section__subtitle">Куда я&nbsp;поеду сразу, как можно будет куда-то поехать</p>
       </div>
       <img class="intro__image" src="./images/intro-image.jpeg" alt="крыло самолета, летящего над облаками">
     </section>
-    <section class="places">
+    <section class="places" id="section-places">
       <div class="places__item places__item_dir_reversed">
         <div class="places__card">
           <img class="places__image" src="./images/places-forest.jpeg" alt="">
@@ -35,9 +55,12 @@
           <div class="places__description">
             <h2 class="section__subtitle">Поеду в&nbsp;лес</h2>
             <div class="places__text">
-              <p class="places__paragraph">Лес&nbsp;— экологическая система, биоценоз, в&nbsp;которой главной жизненной формой являются деревья.</p>
-              <p class="places__paragraph">Лес&nbsp;— составная часть природы, понятие «лес» можно рассматривать на&nbsp;разных уровнях.
-              В&nbsp;глобальном масштабе&nbsp;— это часть биосферы, в&nbsp;локальном&nbsp;— это может быть насаждение. Леса занимают около трети площади суши.</p>
+              <p class="places__paragraph">Лес&nbsp;— экологическая система, биоценоз, в&nbsp;которой главной жизненной
+                формой являются деревья.</p>
+              <p class="places__paragraph">Лес&nbsp;— составная часть природы, понятие «лес» можно рассматривать
+                на&nbsp;разных уровнях.
+                В&nbsp;глобальном масштабе&nbsp;— это часть биосферы, в&nbsp;локальном&nbsp;— это может быть насаждение.
+                Леса занимают около трети площади суши.</p>
             </div>
           </div>
         </div>
@@ -47,8 +70,10 @@
           <div class="places__description">
             <h2 class="section__subtitle">Поеду в&nbsp;горы</h2>
             <div class="places__text">
-              <p class="places__paragraph"> Горные системы занимают 64&nbsp;% поверхности Азии, 36&nbsp;%&nbsp;— Северной Америки, 25&nbsp;%&nbsp;— Европы, 22&nbsp;%&nbsp;— Южной Америки,
-                17&nbsp;%&nbsp;— Австралии и&nbsp;3&nbsp;%&nbsp;— Африки. В целом 24&nbsp;% земной поверхности приходится на&nbsp;горы. 10&nbsp;% всех людей живёт на&nbsp;территории гор.
+              <p class="places__paragraph"> Горные системы занимают 64&nbsp;% поверхности Азии, 36&nbsp;%&nbsp;—
+                Северной Америки, 25&nbsp;%&nbsp;— Европы, 22&nbsp;%&nbsp;— Южной Америки,
+                17&nbsp;%&nbsp;— Австралии и&nbsp;3&nbsp;%&nbsp;— Африки. В целом 24&nbsp;% земной поверхности
+                приходится на&nbsp;горы. 10&nbsp;% всех людей живёт на&nbsp;территории гор.
                 В&nbsp;горах берёт своё начало большинство рек Земли.</p>
             </div>
           </div>
@@ -65,25 +90,32 @@
           <div class="places__description">
             <h2 class="section__subtitle">Поеду на&nbsp;Чёрное море</h2>
             <div class="places__text">
-              <p class="places__paragraph">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда, где никто раньше не&nbsp;был. Никто и&nbsp;никогда раньше не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо, и&nbsp;падать в&nbsp;это синее небо, я&nbsp;позову.</p>
-              <p class="places__paragraph">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море уеду&nbsp;я. Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море.</p>
+              <p class="places__paragraph">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда, где никто
+                раньше не&nbsp;был. Никто и&nbsp;никогда раньше не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть
+                на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо, и&nbsp;падать в&nbsp;это синее небо,
+                я&nbsp;позову.</p>
+              <p class="places__paragraph">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море,
+                на&nbsp;Чёрное-Чёрное море уеду&nbsp;я. Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное
+                море, на&nbsp;Чёрное-Чёрное море.</p>
               <p class="places__paragraph">Уеду&nbsp;я.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="quotes">
+    <section class="quotes" id="section-quotes">
       <h2 class="section__title narrow__title">люди</h2>
       <p class="quotes__subtitle section__subtitle">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</p>
       <ul class="table">
         <li class="table__cell">
           <p class="table__heading section__title narrow__title">Иван Бунин</p>
-          <p class="table__text">Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность путешествовать.</p>
+          <p class="table__text">Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность
+            путешествовать.</p>
         </li>
         <li class="table__cell">
           <p class="table__heading section__title narrow__title">Альбер Камю</p>
-          <p class="table__text">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.</p>
+          <p class="table__text">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.
+          </p>
         </li>
         <li class="table__cell">
           <p class="table__heading section__title narrow__title">Норвежская пословица</p>
@@ -91,17 +123,22 @@
         </li>
         <li class="table__cell">
           <p class="table__heading section__title narrow__title">Мария Захарова</p>
-          <p class="table__text">В&nbsp;принципе зарубежная поездка&nbsp;– это серьезнейшее, ответственнейшее и&nbsp;очень рискованное предприятие.</p>
+          <p class="table__text">В&nbsp;принципе зарубежная поездка&nbsp;– это серьезнейшее, ответственнейшее
+            и&nbsp;очень рискованное предприятие.</p>
         </li>
       </ul>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="section-footer">
     <div class="footer__copyright">
       <span class="footer__copyright-year">&copy; 2022</span>
       <p class="footer__copyright-author">Любовь Кушко</p>
       <p class="footer__copyright-author">Орхан Рахметов</p>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,10 @@
+.header__list-item {
+    color: inherit;
+    text-decoration: none;
+    scale: 1;
+    transition: scale .5s ease;
+  }
+  
+  .header__list-item:hover {
+    scale: 1.1;
+  }

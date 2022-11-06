@@ -5,12 +5,22 @@
   margin: 0;
   object-fit: cover;
   object-position: center;
+  scale: 1;
+  transition: scale .6s ease-in;
+}
+
+.intro__image:hover {
+  scale: 1.06;
 }
 
 @media screen and (max-width: 768px) {
   .intro__image {
     max-width: 100%;
     width: 100%;
+  }
+
+  .intro__image:hover {
+    scale: 1;
   }
 }
 

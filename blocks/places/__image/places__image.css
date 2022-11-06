@@ -4,4 +4,9 @@
   aspect-ratio: 6 / 5;
   object-fit: cover;
   object-position: center;
+  transition: transform .6s ease-in;
+}
+
+.places__image:hover {
+  transform: scale(1.05);
 }
