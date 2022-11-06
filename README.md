@@ -14,5 +14,5 @@
 https://orkhanrakhmetov.github.io/kuda-ya-poedu
 
 ## Авторы
-Любовь Кушко. 
+Любовь Кушко  
 Орхан Рахметов
